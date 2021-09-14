@@ -14,8 +14,8 @@
    2.1 Check for null values:
    at 367579 password column has one NaN value so we drop it.
 
-   2.2 check countplot of strenght column:
-   we get 500000 strong passwords,100000 weak and very strong passwords.
+   2.2 Check countplot of strenght column:
+   we get 500000 strong passwords,100000 weak and very strong passwords each.
 
 3. Apply TF-IDF Vectorizer on data:
    It converts String data into numerical data
