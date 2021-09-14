@@ -11,10 +11,10 @@
    strenght value is 2 means password is very strong
    if it is 1 then strong and for 0 it is weak password.
 
- 2.1 Check for null values:
+   2.1 Check for null values:
    at 367579 password column has one NaN value so we drop it.
 
- 2.2 check countplot of strenght column:
+   2.2 check countplot of strenght column:
    we get 500000 strong passwords,100000 weak and very strong passwords.
 
 3. Apply TF-IDF Vectorizer on data:
